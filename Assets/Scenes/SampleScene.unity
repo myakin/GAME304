@@ -534,6 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceMagnitude: 300000
+  deathSprite: {fileID: -2643538357942516794, guid: a9c136f9dcfd3954fa0f3fab6260607f, type: 3}
 --- !u!1 &1882165939
 GameObject:
   m_ObjectHideFlags: 0

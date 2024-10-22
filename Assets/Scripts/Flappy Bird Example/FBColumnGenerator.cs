@@ -10,6 +10,9 @@ public class FBColumnGenerator : MonoBehaviour
 
     public List<GameObject> generatedObjects = new List<GameObject>();
 
+    private void Start() {
+        GenerateColumns();
+    }
     
 
     public void GenerateColumns() {
