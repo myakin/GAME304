@@ -48,7 +48,7 @@ namespace FBCharacterSystem
             StartCoroutine(WaitForDieAnimationState());
 
             // TODO: bring a post-death UI
-            SceneManager.LoadScene("DeathUIScene", LoadSceneMode.Additive);
+            FBSceneLoader.LoadScene("DeathUIScene", true);
 
         }
 

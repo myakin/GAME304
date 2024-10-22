@@ -16,7 +16,7 @@ public class FBDeathUIManager : MonoBehaviour
 
     public void Restart() {
         Time.timeScale = 1;
-        SceneManager.LoadScene("SampleScene");
+        FBSceneLoader.LoadScene("SampleScene");
     }
 
     public void Quit() {
